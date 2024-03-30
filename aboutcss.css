@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins" , sans-serif;
+  }
+  body{
+	height: 980px;
+    width: 100%;
+    background-image: linear-gradient(360deg, #f5e4e3 0%, #f4c3c2 100%);
+    align-items: center;
+    justify-content: center;
+}
+form {
+	background-color: white;
+	border-radius: 6px;
+	padding: 30px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.f1{
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin: 2rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	text-align: left;
+	justify-content: space-between;
+}
+
+
+.about {
+	background-image: linear-gradient(360deg, #f5e4e3 0%, #f4c3c2 100%);
+	padding: 20px 0 20px 0;
+	text-align: center;
+    height: 950px;
+	top: 0;
+}
+
+.about h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.about p {
+	font-size: 1rem;
+	color: #323030;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.about-info {
+	margin: 2rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+
+.about-img {
+	width: 20rem;
+	height: 20rem;
+
+}
+
+.about-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	object-fit: contain;
+}
+
+.about-info p {
+	font-size: 1.3rem;
+	margin: 0 2rem;
+	text-align: justify;
+}
+
+button {
+	border: none;
+	outline: 0;
+	padding: 10px;
+	margin: 2rem;
+	font-size: 1rem;
+	color: white;
+	background-color: #f1b5cb;
+	text-align: center;
+	cursor: pointer;
+	width: 15rem;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: #f5e4e3;
+}
+hr {  
+	height: 1px;  
+	background-color: rgb(255, 255, 255);  
+	border: none;  
+  }  
+  footer{
+	color: white;
+  }
+.vm{
+	width: 700px;
+	height: 250px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.mission {
+	font-weight: bold;
+	font-size: 30px;
+}
+.vision{
+	font-weight: bold;
+	font-size: 30px;
+}
+img{
+	transform: rotateZ(180deg);
+	width: 500px;
+	position: relative;
+    left: 0;
+}
+.m1{
+	margin-right: 130px;
+}
